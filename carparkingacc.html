@@ -4,37 +4,41 @@
 <script>
   function email() {
   // Get the text field
-  var copyText = document.getElementById("email");
+  var copyText = "admirtahiraj1@icloud.com"
 
   // Select the text field
   copyText.select();
   copyText.setSelectionRange(0, 99999); // For mobile devices
 
    // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
+  navigator.clipboard.writeText(copyText);
 
   // Alert the copied text
-  alert("Copied the email: " + copyText.value);
+  alert("Copied the email: " + copyText);
 }
   function pass() {
   // Get the text field
-  var copyText = document.getElementById("pass");
+  var copyText = "admircpm2"
 
   // Select the text field
   copyText.select();
   copyText.setSelectionRange(0, 99999); // For mobile devices
 
    // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
+  navigator.clipboard.writeText(copyText);
 
   // Alert the copied text
-  alert("Copied the password: " + copyText.value);
+  alert("Copied the password: " + copyText);
 }
 </script>
 
 <p>
 <font size="5" face="arial">
 Email: admirtahiraj1@icloud.com
+</font>
+</p>
+<p>
+<font size="5" face="arial">
 Pass: admircpm2
 </font>
 </p>
