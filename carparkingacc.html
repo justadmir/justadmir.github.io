@@ -1,0 +1,43 @@
+<input type="text" value="admirtahiraj1@icloud.com" id="email">
+<input type="text" value="admircpm2" id="pass">
+
+<script>
+  function email() {
+  // Get the text field
+  var copyText = document.getElementById("email");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the email: " + copyText.value);
+}
+  function pass() {
+  // Get the text field
+  var copyText = document.getElementById("pass");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the password: " + copyText.value);
+}
+</script>
+
+<p>
+<font size="5" face="arial">
+Email: admirtahiraj1@icloud.com
+Pass: admircpm2
+</font>
+</p>
+<!-- The button used to copy the text -->
+<button onclick="email()">Copy Email</button>
+<button onclick="pass()">Copy Pass</button>
