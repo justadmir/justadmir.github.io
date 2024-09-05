@@ -6,8 +6,8 @@ body {
             justify-content: center;
             align-items: center;
             height: 100vh;
-        }
-        .container {
+}
+.container {
             background-color: white;
             border-radius: 35px;
             padding: 100px;
@@ -15,23 +15,23 @@ body {
             width: 360px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
-        .container img {
+.container img {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             margin-bottom: 20px;
         }
-        .container .info {
+.container .info {
             background-color: #f5f5f5;
             border-radius: 10px;
             padding: 10px;
             margin-bottom: 10px;
             text-align: center;
         }
-        .container .info span {
+.container .info span {
             font-weight: bold;
         }
-        .container .download-btn {
+.container .download-btn {
             display: inline-block;
             background-color: black;
             color: white;
@@ -47,13 +47,13 @@ body {
             justify-content: center;
             transition: background-color 0.3s;
         }
-        .container .download-btn i {
+.container .download-btn i {
             margin-right: 20px;
         }
-        .container .download-btn.downloading {
+.container .download-btn.downloading {
             background-color: #555;
             cursor: not-allowed;
         }
-        .container .download-btn.downloading i {
+.container .download-btn.downloading i {
             display: none;
         }
