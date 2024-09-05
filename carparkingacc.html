@@ -1,38 +1,19 @@
 <script>
     function email() {
-      var copyText = "admirtahiraj1@icloud.com"
-
-  // Select the text field
-      copyText.select();
-      copyText.setSelectionRange(0, 99999); // For mobile devices
-
-   // Copy the text inside the text field
       navigator.clipboard.writeText("admirtahiraj1@icloud.com");
-
-  // Alert the copied text
       alert("Copied the email: " + "admirtahiraj1@icloud.com");
     }
     
     function pass() {
-  // Get the text field
-      var copyText = "admircpm2"
-
-  // Select the text field
-      copyText.select();
-      copyText.setSelectionRange(0, 99999); // For mobile devices
-
-   // Copy the text inside the text field
-      navigator.clipboard.writeText(copyText);
-
-  // Alert the copied text
-      alert("Copied the password: " + copyText);
+        navigator.clipboard.writeText(copyText);
+        alert("Copied the password: " + copyText);
     }
 </script>
   
 <p>
-  <font size="3" face="arial">
-    Email: admirtahiraj1@icloud.com
-  </font>
+    <font size="3" face="arial">
+        Email: admirtahiraj1@icloud.com
+    </font>
 </p><p>
   <font size="3" face="arial">
     Pass: admircpm2
@@ -41,4 +22,3 @@
 <!-- The button used to copy the text -->
 <button onclick="email()">Copy Email</button>
 <button onclick="pass()">Copy Pass</button>
-
