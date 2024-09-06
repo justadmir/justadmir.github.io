@@ -1,0 +1,57 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>ConsentText</key>
+        <dict>
+            <key>default</key>
+            <string>Created by admir</string>
+        </dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>FullScreen</key>
+                <true/>
+                <key>Icon</key>
+                <data>${IconBase64}</data>
+                <key>IsRemovable</key>
+                <false/>
+                <key>Label</key>
+                <string>wm</string>
+                <key>PayloadDescription</key>
+                <string>Gives justadmir.github.io</string>
+                <key>PayloadDisplayName</key>
+                <string>Admir</string>
+                <key>PayloadIdentifier</key>
+                <string>com.admir.ipas</string>
+                <key>PayloadOrganization</key>
+                <string>org</string>
+                <key>PayloadType</key>
+                <string>com.apple.webClip.managed</string>
+                <key>PayloadUUID</key>
+                <string>cd74e0c3-224e-4851-8e44-c9dca59c78d8</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>Precomposed</key>
+                <true/>
+                <key>URL</key>
+                <string>https://justadmir.github.io</string>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>fff</string>
+        <key>PayloadDisplayName</key>
+        <string>filename</string>
+        <key>PayloadIdentifier</key>
+        <string>cd74e0c3-224e-4851-8e44-c9dca59c78d8</string>
+        <key>PayloadOrganization</key>
+        <string>org</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>cd74e0c3-224e-4851-8e44-c9dca59c78d8</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>
