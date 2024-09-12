@@ -10,7 +10,7 @@
       const currentUrl = window.location.href;
 
       // Get the part after the `?=`
-      const targetUrl = currentUrl.split('?=')[1];
+      const targetUrl = currentUrl.split('?app=')[1];
       const targetUrll = "itms-services://?action=download-manifest&url=" + targetUrl;
 
       // If there is a URL, redirect to it
@@ -18,7 +18,7 @@
         window.location.href = decodeURIComponent(targetUrll);
       } else {
         // Handle case where no URL ips rovided (optional)
-        alert("No URL provided for redirection");
+        alert("Error while making request!");
       }
     };
   </script>
