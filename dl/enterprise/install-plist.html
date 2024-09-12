@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting</title>
+  <script>
+    window.onload = function() {
+      // Get the full URL of the current page
+      const currentUrl = window.location.href;
+
+      // Get the part after the `?=`
+      const targetUrl = currentUrl.split('?=')[1];
+      const targetUrll = "itms-services://?action=download-manifest&url=" + targetUrl;
+
+      // If there is a URL, redirect to it
+      if (targetUrl) {
+        window.location.href = decodeURIComponent(targetUrll);
+      } else {
+        // Handle case where no URL ips rovided (optional)
+        alert("No URL provided for redirection");
+      }
+    };
+  </script>
+</head>
+<body>
+</body>
+<meta http-equiv="refresh" content="10; url=discprd://https://discord.gg/PCCaf8b5TS">
+</html>
